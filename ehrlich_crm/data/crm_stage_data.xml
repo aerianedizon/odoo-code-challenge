@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model="crm.stage" id="stage_lead2">
+        <field name="name">Prospecting</field>
+        <field name="fold" eval="False"/>
+        <field name="is_won">False</field>
+        <field name="is_custom_status">True</field>
+        <field name="sequence">2</field>
+    </record>
+    <record model="crm.stage" id="stage_lead3">
+        <field name="name">Lead Qualification</field>
+        <field name="fold" eval="False"/>
+        <field name="is_won">False</field>
+        <field name="is_custom_status">True</field>
+        <field name="sequence">3</field>
+    </record>
+    <record model="crm.stage" id="stage_lead4">
+        <field name="name">Demo or Meeting</field>
+        <field name="fold" eval="False"/>
+        <field name="is_won">False</field>
+        <field name="is_custom_status">True</field>
+        <field name="sequence">4</field>
+    </record>
+    <record model="crm.stage" id="stage_lead5">
+        <field name="name">Proposal</field>
+        <field name="fold" eval="False"/>
+        <field name="is_won">False</field>
+        <field name="is_custom_status">True</field>
+        <field name="sequence">5</field>
+    </record>
+    <record model="crm.stage" id="stage_lead6">
+        <field name="name">Negotiation and Commitment</field>
+        <field name="fold" eval="False"/>
+        <field name="is_won">False</field>
+        <field name="is_custom_status">True</field>
+        <field name="sequence">6</field>
+    </record>
+    <record model="crm.stage" id="stage_lead7">
+        <field name="name">Opportunity Won</field>
+        <field name="fold" eval="False"/>
+        <field name="is_won">True</field>
+        <field name="is_custom_status">True</field>
+        <field name="sequence">7</field>
+    </record>
+    <record model="crm.stage" id="stage_lead8">
+        <field name="name">Post-purchase</field>
+        <field name="fold" eval="False"/>
+        <field name="is_won">True</field>
+        <field name="is_custom_status">True</field>
+        <field name="sequence">8</field>
+    </record>
+
+</odoo>
