@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="crm_team_form_inherit" model="ir.ui.view">
+        <field name="name">crm.team.form.inherit</field>
+        <field name="model">crm.team</field>
+        <field name="inherit_id" ref="sales_team.crm_team_view_form"/>
+        <field name="arch" type="xml">
+            <data>
+                <xpath expr="//form[1]/sheet[1]/notebook[1]" position="inside">
+                    <page name="opportunities_tab" string="Opportunities">
+                        <div>
+                            <field name="opportunity_ids">
+                                <tree editable="false">
+                                    <field name="name"/>
+                                    <field name="contact_name"/>
+                                    <field name="user_id"/>
+                                </tree>
+                            </field>
+                        </div>
+                    </page>
+                </xpath>
+            </data>
+        </field>
+    </record>
+</odoo>
