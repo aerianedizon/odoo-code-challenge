@@ -22,6 +22,7 @@
 
   ### Steps
   1. Create the following folder structure:
+  ```
   odoo/
   |----> addons/
             |----> clone this repository here
@@ -31,6 +32,7 @@
             |----> `odoo.conf`
   |----> `Dockerfile`
   |----> `docker-compose.yml`
+  ```
   2. Contents of odoo.conf is as follows:
   ```
   [options]
